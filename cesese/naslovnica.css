@@ -1,0 +1,59 @@
+body{
+background-color: beige;
+margin:0;
+}
+
+  img{
+    max-width: 100%;
+  }
+  div.pozadina{
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+
+.sempltekt{
+  font-size: 100px;
+  color: #752e89;
+}
+.overlej{
+position: relative;
+top:0;
+left:0;
+margin-top:-92.75%;
+width:80%;
+height:100%;
+background-color:rgba(117, 46, 137,0.5);
+}
+.overlej a{
+  text-decoration: none;
+}
+h1{ 
+  padding-top:10%;
+  padding-left:10%;
+  opacity: 1;
+  font-size: 5rem;
+  color: aliceblue;
+  text-shadow: 0.2rem 0.2rem 0.1rem black;
+}
+.onama{
+  padding-left: 10%;
+  padding-right: 30%;
+  color: rgba(255,255,255,1);
+  font-size: 2rem;
+}
+.vise{
+  margin-left: 10%;
+  background-color: aliceblue;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border:0.2rem #752e89 solid;
+  color: #752e89;
+}
+.vise:hover{
+  background-color:#752e89;
+  color: aliceblue;
+  border-color:aliceblue;
+}

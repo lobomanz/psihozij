@@ -1,0 +1,79 @@
+body{
+    background-color:#edcff5;
+    background-image: url('https://thumbs.dreamstime.com/b/flower-vines-pattern-12738699.jpg');
+}
+.container{
+display: grid;
+grid-template-columns: 80rem;
+margin-left:20%;
+margin-right:20%;
+}
+.kartice{
+    width:80%;
+    
+    border-radius: 0.5rem;
+
+    font-size: 1rem;
+    margin:0.5rem;
+    box-shadow: 0.4rem 0.4rem 1rem grey;
+    background-color: white;
+    color: #752e89;
+    display:flex;
+}
+.pred{
+    padding-bottom: 1.4rem;
+    padding-top: 1.6rem;
+    border-bottom: 0.2rem white solid;
+}
+p{
+padding:1.2rem;
+font-family: 'Alegreya' , sans-serif;
+text-shadow: 0.05rem 0.05rem 0.1rem gray;
+}
+.deoprvi{
+    font-family: 'lovelo', serif;
+    background-color: #752e89;
+    color: white;
+    display: inline-block;
+    margin:1rem;
+}
+.deodrugi{
+    font-family: 'lovelo', serif;
+    background-color: #b16dc4;
+    color: white;
+    display: inline-block;
+    margin: 1rem;
+}
+h2{
+    color: black;
+    text-align: center;
+    text-shadow: 0.2rem 0.2rem 0.5rem grey;
+    font-family: 'Alegreya' , sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+
+}
+img{
+    align-self: center;
+}
+.dropdown{
+    border: 0.2rem #752e89 dashed;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem grey;
+    height: 74.5%;
+    width:15%;
+    background-color:white;
+    position:fixed;
+    top: 18%;
+    left:3%;
+    padding-top: 1rem;
+}
+
+a{
+    display: block;
+    padding: 0.5rem;
+    padding-left: 1.4rem;
+}
+.stvari{
+    padding-left: 1rem;
+}
