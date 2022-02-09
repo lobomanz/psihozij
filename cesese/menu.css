@@ -41,25 +41,42 @@ text-decoration: none;
   .mnvu{
     
     color:white;
-    font-size: 21px;
+    font-size: 18px;
     padding: 10px;
     flex:1;
     font-family: 'lovelo', serif;
+    text-align: center;
    
   }
   
   .mnvu:hover{
-    text-shadow: 2px 2px 5px rgb(24, 22, 23);
-    font-size:24px;
-    font-family: 'Alegreya' , sans-serif;
+    text-shadow: 5px 5px 10px rgb(24, 22, 23);
+    font-size:21px;
+    font-family: 'lovelo', serif;
   }
   
   .ikona{
-    width:12rem;
-    height:6rem;
+    width:4rem;
+    height:4rem;
     
 }
 .box img{
-width: 6rem;
-height:6rem;
+width: 4rem;
+height:4rem;
+}
+
+.bkg{
+  background-image:url("../slike/vines.jpg");
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: -1;
+  
+
+ 
+}
+.placement{
+  width:20rem;
 }
