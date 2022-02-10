@@ -8,7 +8,7 @@ body{
     position:absolute;
     top:0%;
     left:2%;
-    background-color:rgb(206,183,211);
+    background-color:#752e89;
     height: 6.1rem;
     width:6.1rem;
     z-index: 400000000000;
@@ -31,12 +31,12 @@ body{
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    background-color:rgb(206,183,211);
+    background-color:#752e89;
     
     
     width:97.5%;
     margin:0;
-    border-bottom:2px rgb(206,183,211) solid ;
+    border-bottom:2px #752e89 solid ;
     margin-bottom: 1rem;
     
   }
@@ -287,5 +287,5 @@ width:10rem;
       left:0;
       z-index: -500;
       
-  opacity:0.5;
+  opacity:0.8;
       }
