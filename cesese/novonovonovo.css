@@ -1,6 +1,8 @@
 body{
     margin:0;
     background-color: #752e89;
+    
+    
 }
 .loger{
     position:absolute;
@@ -90,7 +92,13 @@ height:4rem;
 
 
 
-
+ .mnvu, .panel, .panel a{
+  font-weight: 500;
+  text-shadow: 1px 1px 1px gray;
+}
+.mnvu2{
+  font-weight: 900;
+}
 
 
 
