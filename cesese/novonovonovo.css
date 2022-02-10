@@ -275,7 +275,13 @@ width:10rem;
     float: right;
     margin-left: 5px;
   }
-  
+  .accordion:hover:after {
+    content: '▼'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #4b015f;
+    float: right;
+    margin-left: 5px;
+  }
   
   .active:after  {
     content: "▲";
