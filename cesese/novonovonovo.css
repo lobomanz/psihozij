@@ -24,6 +24,7 @@ body{
     position: sticky;
     top:0rem;
     left:0;
+    z-index:500000000;
 }
 .menu {
 
@@ -32,7 +33,7 @@ body{
     justify-content: space-around;
     list-style-type: none;
     background-color:#752e89;
-    z-index:500000000;
+    
     
     width:97.5%;
     margin:0;
