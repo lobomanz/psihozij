@@ -30,21 +30,7 @@
         padding: 0.5rem;
         padding-left: 2rem;
      }
-    .deoprvi{
-        font-family: 'lovelo', serif;
-        background-color: #752e89;
-        color: white;
-        display: inline-block;
-        margin:1rem;
-     
-    }
-    .deodrugi{
-        font-family: 'lovelo', serif;
-        background-color: #b16dc4;
-        color: white;
-        display: inline-block;
-        margin: 1rem;
-    }
+    
     h2 {
          padding-top:1rem;
          padding-left:2rem;
