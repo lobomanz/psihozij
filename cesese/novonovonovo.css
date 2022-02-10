@@ -187,8 +187,8 @@ width:10rem;
 
 
 .accordion {
-    background-color:white;
-    color: #752e89;
+    background-color:#4b015f;
+    color: white;
     cursor: pointer;
     padding: 10px;
     width: 100%;
@@ -206,8 +206,10 @@ width:10rem;
   
  
   .active, .accordion:hover {
-    background-color:rgb(206,183,211);
-    border-right: 2px white solid;
+    background-color:white;
+    border-right: 2px #4b015f solid;
+    color:#4b015f;
+    
   }
   
 
@@ -239,8 +241,8 @@ width:10rem;
   .panel a:hover{
     display: block;
     padding: 10px;
-    color:#752e89;
-    border-top:2px #752e89 solid;
+    color:#4b015f;
+    border-top:2px #4b015f solid;
     margin: 0;
     
     background-color:white;
@@ -253,7 +255,7 @@ width:10rem;
     left:0%;
     top:0%;
     height:100%;
-    background-color: white;
+    background-color: #4b015f;
     z-index: -1;
 
   }
@@ -269,14 +271,15 @@ width:10rem;
   .accordion:after {
     content: '▼'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
-    color: #752e89;
+    color: white;
     float: right;
     margin-left: 5px;
   }
   
-  .active:after {
+  
+  .active:after  {
     content: "▲";
-    color:#752e89; /* Unicode character for "minus" sign (-) */
+    color:#4b015f; /* Unicode character for "minus" sign (-) */
   }
   .guzica{
       background-image: url('../slike/vinarija.jpg');
