@@ -21,7 +21,7 @@ margin:0;
 position: relative;
 top:0;
 left:0;
-margin-top:-92.75%;
+margin-top:-90.75%;
 width:80%;
 height:100%;
 background-color:rgba(117, 46, 137,0.5);
@@ -31,33 +31,41 @@ z-index: 2;
   text-decoration: none;
 }
 h1{ 
-  padding-top:10%;
+  padding-top:20%;
   padding-left:10%;
   opacity: 1;
-  font-size: 5rem;
+  font-size: 4rem;
   color: aliceblue;
-  text-shadow: 0.2rem 0.2rem 0.1rem black;
+  text-shadow: 0.2rem 0.2rem 1rem black;
   z-index: 2;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .onama{
   z-index: 2;
   padding-left: 10%;
-  padding-right: 30%;
+  padding-right: 40%;
   color: rgba(255,255,255,1);
-  font-size: 2rem;
+  font-size: 1.4rem;
+  font-family: 'Muli', sans-serif;
 }
 .vise{
   z-index: 2;
-  margin-left: 10%;
-  background-color: aliceblue;
-  border-radius: 0.2rem;
-  font-size: 1.5rem;
-  padding: 0.5rem;
-  border:0.2rem #752e89 solid;
+  margin-right: 65%;
+  margin-top:5%;
   color: #752e89;
+         font-weight: bold; 
+         font-size: 22px; 
+         font-family: Arial, Helvetica, sans-serif; 
+         padding: 5px 12px; 
+         background-color: white;
+          border-radius: 5px;
+           float: right;
+           margin-bottom:2rem ;
+           border:2px #752e89 solid;
 }
 .vise:hover{
   background-color:#752e89;
   color: aliceblue;
   border-color:aliceblue;
+  border: 2px white solid;
 }
