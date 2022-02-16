@@ -1,6 +1,31 @@
 body{
     margin:0;
     background-color: #752e89;
+    
+    
+}
+.loger{
+    position:absolute;
+    top:0%;
+    left:2%;
+    background-color:#752e89;
+    height: 6.1rem;
+    width:6.1rem;
+    z-index: 400000000000;
+    margin: 0;
+    
+
+}
+.loger img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.spremnik{
+    position: sticky;
+    top:0rem;
+    left:0;
+    z-index:500000000;
 }
 .menu {
 
@@ -8,46 +33,28 @@ body{
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    background-color:white;
+    background-color:#752e89;
+    max-width: 100%;
     
-    top:0;
-    left:0;
-    width:97%;
-    margin-top:0;
-    margin-left: 0;
-    margin-right: 0;
+    width:100%;
+    margin:0;
+    border-bottom:2px #752e89 solid ;
+   
     
   }
-  .menu a, .menu2 a{
+  .menu a{
 text-decoration: none;
   }
-  .menu2 {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    background-color:white;
-    top:0;
-    left:0;
-    position: fixed;
-    opacity: 0;
-    width: 97%;
-    margin:0;
-    z-index: 5000;
-  }
-  .menu2:hover{
-    opacity: 1;
-  }
+  
   .mnvu{
     
-    color:#752e89;
+    color:white;
     font-size: 18px;
     padding: 10px;
     flex:1;
     font-family: 'SVN-Gilroy', sans-serif;
     text-align: center;
-   
+   margin: 0;
   }
   
   .mnvu:hover{
@@ -59,12 +66,95 @@ text-decoration: none;
   .ikona{
     width:4rem;
     height:4rem;
-    
+}
+.prati{
+    color:#752e89;
+    font-size: 11px;
+    padding-right: 0rem;
+    font-weight: 900;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+   margin: 0;
+}
+
+.ikonice{
+    height: 1rem;
+    width: 1rem;
+}
+.ikonice img{
+    max-width: 100%;
+    max-height: 100%;
 }
 .box img{
 width: 4rem;
 height:4rem;
 }
+
+
+
+
+
+ .mnvu, .panel, .panel a{
+  font-weight: 500;
+  text-shadow: 1px 1px 1px gray;
+}
+.mnvu2{
+  font-weight: 900;
+}
+
+
+
+
+.menu3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color:white;
+    
+    top:0;
+    left:0;
+    width:100%;
+    max-width: 100%;
+    margin:0;
+     
+    
+  }
+  .menu3 a{
+text-decoration: none;
+  }
+  
+  .mnvu2{
+    
+    color:#752e89;
+    font-size: 11px;
+    padding: 10px;
+    flex:1;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+   margin: 0;
+  }
+  
+  .mnvu2:hover{
+    text-shadow: 0.1px 0.1px 0.2px rgb(24, 22, 23);
+    font-size:11px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bkg{
   background-image:url("../slike/vines.jpg");
@@ -79,10 +169,19 @@ height:4rem;
  
 }
 .placement{
-  width:20rem;
+  width:1.5rem;
+}
+.placement2{
+width:10rem;
 }
 .prazno{
     width:8rem;
+}
+.placement5{
+    width:17rem;
+}
+.prazno5{
+    width: 15rem;
 }
 
 
@@ -91,8 +190,8 @@ height:4rem;
 
 
 .accordion {
-    background-color:white;
-    color: #752e89;
+    background-color:#4b015f;
+    color: white;
     cursor: pointer;
     padding: 10px;
     width: 100%;
@@ -110,8 +209,10 @@ height:4rem;
   
  
   .active, .accordion:hover {
-    background-color:rgb(206,183,211);
-    border-right: 2px white solid;
+    background-color:white;
+    border-right: 2px #4b015f solid;
+    color:#4b015f;
+    
   }
   
 
@@ -126,7 +227,7 @@ height:4rem;
       width:15%;
       margin-left:0;
       position:fixed;
-      top:7.4%;
+      top:17.2%;
       left:0;
   }
   .panel a{
@@ -137,14 +238,14 @@ height:4rem;
       border-right:2px white solid ;
       margin: 0;
       
-      background-color: rgb(206,183,211);
+      background-color: #9142a7;
       font-family: 'SVN-Gilroy', sans-serif;
   }
   .panel a:hover{
     display: block;
     padding: 10px;
-    color:#752e89;
-    border-top:2px #752e89 solid;
+    color:#4b015f;
+    border-top:2px #4b015f solid;
     margin: 0;
     
     background-color:white;
@@ -157,7 +258,7 @@ height:4rem;
     left:0%;
     top:0%;
     height:100%;
-    background-color: white;
+    background-color: #4b015f;
     z-index: -1;
 
   }
@@ -173,14 +274,21 @@ height:4rem;
   .accordion:after {
     content: '▼'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
-    color: #752e89;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  .accordion:hover:after {
+    content: '▼'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #4b015f;
     float: right;
     margin-left: 5px;
   }
   
-  .active:after {
+  .active:after  {
     content: "▲";
-    color:#752e89; /* Unicode character for "minus" sign (-) */
+    color:#4b015f; /* Unicode character for "minus" sign (-) */
   }
   .guzica{
       background-image: url('../slike/vinarija.jpg');
@@ -191,5 +299,5 @@ height:4rem;
       left:0;
       z-index: -500;
       
-  opacity:0.5;
+  opacity:0.8;
       }

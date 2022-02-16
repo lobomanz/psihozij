@@ -9,9 +9,19 @@ margin:0;
   div.pozadina{
     display:  grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 0%;
+    padding-top: 0%;
     
   }
   
+
+
+  .pred{
+    padding-bottom: 1rem;
+    padding-top: 1.2rem;
+    border-bottom: 0.2rem white solid;
+    max-height: 100%;
+}
 
 .sempltekt{
   font-size: 100px;
@@ -68,4 +78,10 @@ h1{
   color: aliceblue;
   border-color:aliceblue;
   border: 2px white solid;
+}
+
+
+.visina{
+  height: 8%;
+  max-height: 8%;
 }
