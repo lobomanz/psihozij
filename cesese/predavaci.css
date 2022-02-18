@@ -1,50 +1,76 @@
-
-.container{
-display: grid;
-grid-template-columns: 80rem;
-margin-left:20%;
-margin-right:20%;
-
+body{
+    overflow-x: hidden;
 }
-.kartice{
-    width:90%;
+
+    .kartice{
+        
+        
+        height:45rem;
     
-    border-radius: 0.5rem;
-
-    font-size: 1rem;
-    margin:0.5rem;
-    box-shadow: 0.4rem 0.4rem 1rem grey;
-    background-color: white;
-    color: #752e89;
-    display:flex;
-}
-.pred{
-    padding-bottom: 1.5rem;
-    padding-top: 1.5rem;
-    border-bottom: 0.2rem white solid;
-}
-p{
-padding:1.2rem;
-font-family: 'Alegreya' , sans-serif;
-text-shadow: 0.05rem 0.05rem 0.1rem gray;
-
-}
-
-h2{
-    color: black;
-    text-align: center;
-    text-shadow: 0.2rem 0.2rem 0.5rem grey;
-    font-family: 'Alegreya' , sans-serif;
-    letter-spacing: 0.1rem;
-    font-weight: bold;
-
-}
-.slikaa{
-    align-self: center;
-    border-radius: 16px;
-    margin: 1rem;
+        font-size: 18px;
+        margin-top:0rem;
+        
+        background-color: white;
+        color: #752e89;
+        display:flex;
+    }
+    .pred{
+        padding-bottom: 1.4rem;
+        padding-top: 1.6rem;
+        border-bottom: 0.2rem white solid;
+    }
+    p { 
+        color: #333; 
+        font-family: 'Muli', sans-serif; 
+        margin-bottom: 15px;
+        padding: 0.5rem;
+        padding-left: 2rem;
+     }
     
-}
+    h2 {
+         padding-top:1rem;
+         padding-left:2rem;
+         padding-right: 2rem;
+         }
 
 
+h2 { font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 2.5rem;
+      color: #333;
 
+     }
+    .slikaa{
+        width: 90%;
+        height: 90%;
+        
+        
+        
+    }
+    .prof{
+        color:#752e89 ;
+    }
+    .više{
+        color: #752e89;
+          
+         font-size: 20px; 
+         font-family: Arial, Helvetica, sans-serif; 
+         padding-left: 2rem;
+         padding-right: 2rem;
+         padding-top: 0.5rem;
+         padding-bottom: 0.5rem;
+         border: 1px #752e89 solid;
+          border-radius: 20px;
+           float: right;
+           margin-top: 1.5rem;
+           
+    }
+    .više:hover{
+        background-color: #752e89;
+        color: white;
+    }
+    .text{
+        margin-left: 3%;
+    }
+    
+    
+    

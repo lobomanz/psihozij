@@ -1,6 +1,5 @@
 body{
     overflow-x: hidden;
-    
 }
 
     .kartice{
@@ -14,7 +13,6 @@ body{
         background-color: white;
         color: #752e89;
         display:flex;
-        margin-bottom: 0%;
     }
     .pred{
         padding-bottom: 1.4rem;
@@ -24,7 +22,7 @@ body{
     p { 
         color: #333; 
         font-family: 'Muli', sans-serif; 
-        margin-bottom: 18px;
+        margin-bottom: 15px;
         padding: 0.5rem;
         padding-left: 2rem;
      }
@@ -42,23 +40,9 @@ h2 { font-family: 'Open Sans Condensed', sans-serif;
 
      }
     .slikaa{
-        width: 60%;
-        height: 60%;
-        align-items: center;
-        margin-left: 6rem;
-        margin-right: 6rem;
-        margin-top: 4rem;
-        border-radius: 1500px;
+        width: 95%;
+        height: 95%;
         
-        
-    }
-    .slikaa2{
-        width: 60%;
-        height: 60%;
-        align-items: center;
-        margin-left: 10%;
-        margin-right: 6rem;
-        margin-top: 4rem;
         
         
     }
@@ -85,13 +69,9 @@ h2 { font-family: 'Open Sans Condensed', sans-serif;
         color: white;
     }
     .text{
-        margin-left: 10%;
-    }
-    .text2{
-       
-        margin-right: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     
-    .container{
-        padding: 0;
-    }
+    
+    

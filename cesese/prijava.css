@@ -50,15 +50,23 @@ h2 { font-family: 'Open Sans Condensed', sans-serif;
         color:#752e89 ;
     }
     .više{
-        color: white;
-         font-weight: bold; 
+        color: #752e89;
+          
          font-size: 20px; 
          font-family: Arial, Helvetica, sans-serif; 
-         padding: 5px 14px; 
-         background-color: #752e89;
-          border-radius: 5px;
+         padding-left: 2rem;
+         padding-right: 2rem;
+         padding-top: 0.5rem;
+         padding-bottom: 0.5rem;
+         border: 1px #752e89 solid;
+          border-radius: 20px;
            float: right;
            margin-top: 1.5rem;
+           
+    }
+    .više:hover{
+        background-color: #752e89;
+        color: white;
     }
     .text{
         margin-left: 3%;
