@@ -1,20 +1,15 @@
+body{
+    overflow-x: hidden;
+}
 
-.container{
-    display: grid;
-    grid-template-columns: 80rem;
-    margin-left:18%;
-    margin-right:20%;
-    
-    }
     .kartice{
-        width:90%;
         
-        border-radius: 0.5rem;
+        
+        height:45rem;
     
-        font-size: 1rem;
-        margin-top:1rem;
-        margin-left: 0;
-        box-shadow: 0.4rem 0.4rem 2rem rgb(155, 154, 154);
+        font-size: 18px;
+        margin-top:0rem;
+        
         background-color: white;
         color: #752e89;
         display:flex;
@@ -28,26 +23,27 @@
         color: #333; 
         font-family: 'Muli', sans-serif; 
         margin-bottom: 15px;
-        padding: 0.2rem;
+        padding: 0.5rem;
         padding-left: 2rem;
      }
     
     h2 {
-         padding-top:0.5rem;
+         padding-top:1rem;
          padding-left:2rem;
          padding-right: 2rem;
          }
 
 
 h2 { font-family: 'Open Sans Condensed', sans-serif;
-     font-size: 2rem;
+     font-size: 2.5rem;
       color: #333;
 
      }
     .slikaa{
-        align-self: center;
-        border-radius: 16px;
-        margin: 1rem;
+        width: 90%;
+        height: 90%;
+        
+        
         
     }
     .prof{
@@ -56,15 +52,17 @@ h2 { font-family: 'Open Sans Condensed', sans-serif;
     .više{
         color: white;
          font-weight: bold; 
-         font-size: 18px; 
+         font-size: 20px; 
          font-family: Arial, Helvetica, sans-serif; 
-         padding: 5px 12px; 
+         padding: 5px 14px; 
          background-color: #752e89;
           border-radius: 5px;
            float: right;
-           margin-bottom:2rem ;
+           margin-top: 1.5rem;
     }
-    
+    .text{
+        margin-left: 3%;
+    }
     
     
     
