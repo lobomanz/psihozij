@@ -87,3 +87,11 @@ h1{
   max-height: 8%;
 }
 
+.logan{
+  position: absolute;
+  top: 0.5%;
+  left: 0%;
+  width: 12rem;
+  height:12rem;
+  z-index: 1000000000000000000;
+}

@@ -180,3 +180,11 @@ a{
   font-family: 'Alegreya' , sans-serif;
 }
 
+.logec{
+  position: fixed;
+  top: 0.5%;
+  left: 0%;
+  width: 12rem;
+  height:12rem;
+  z-index: 1000000000000000000;
+}
