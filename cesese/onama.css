@@ -21,27 +21,29 @@ body{
     }
     p { 
         color: #333; 
-        font-family: 'Muli', sans-serif; 
+        font-family: 'Alegreya', sans-serif; 
         margin-bottom: 15px;
         padding: 0.5rem;
-        padding-left: 2rem;
+        padding-left: 1rem;
+        font-size: 18px;
      }
     
     h2 {
-         padding-top:1rem;
-         padding-left:2rem;
+         padding-top:0.5rem;
+         padding-left:8rem;
          padding-right: 2rem;
+         
          }
 
 
-h2 { font-family: 'Open Sans Condensed', sans-serif;
-     font-size: 3rem;
+h2 { font-family: 'lovelo', sans-serif;
+     font-size: 2rem;
       color: #333;
 
      }
     .slikaa{
-        width: 95%;
-        height: 95%;
+        width: 75%;
+        height: 75%;
         
         
         
@@ -53,7 +55,7 @@ h2 { font-family: 'Open Sans Condensed', sans-serif;
         color: #752e89;
           
          font-size: 20px; 
-         font-family: Arial, Helvetica, sans-serif; 
+         font-family: 'Alegreya', sans-serif; 
          padding-left: 2rem;
          padding-right: 2rem;
          padding-top: 0.5rem;
@@ -61,7 +63,7 @@ h2 { font-family: 'Open Sans Condensed', sans-serif;
          border: 1px #752e89 solid;
           border-radius: 20px;
            float: right;
-           margin-top: 1.5rem;
+           margin-top: 0.5rem;
            
     }
     .više:hover{

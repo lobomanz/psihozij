@@ -23,10 +23,11 @@ body{
     }
     p { 
         color: #333; 
-        font-family: 'Muli', sans-serif; 
+        font-family: 'Alegreya', sans-serif;
         margin-bottom: 18px;
         padding: 0.5rem;
         padding-left: 2rem;
+        font-size: 20px;
      }
     
     h2 {
@@ -36,8 +37,8 @@ body{
          }
 
 
-h2 { font-family: 'Open Sans Condensed', sans-serif;
-     font-size: 3rem;
+h2 { font-family: 'lovelo', sans-serif;
+     font-size: 1.8rem;
       color: #333;
 
      }
@@ -61,6 +62,7 @@ h2 { font-family: 'Open Sans Condensed', sans-serif;
         margin-top: 4rem;
         
         
+        
     }
     .prof{
         color:#752e89 ;
@@ -80,7 +82,24 @@ h2 { font-family: 'Open Sans Condensed', sans-serif;
            margin-top: 1.5rem;
            
     }
-    .više:hover{
+
+    .više2{
+        color: #752e89;
+          
+         font-size: 20px; 
+         font-family: Arial, Helvetica, sans-serif; 
+         padding-left: 2rem;
+         padding-right: 2rem;
+         padding-top: 0.5rem;
+         padding-bottom: 0.5rem;
+         border: 1px #752e89 solid;
+          border-radius: 20px;
+           float: left;
+           margin-top: 1.5rem;
+           margin-left: 2rem;
+           
+    }
+    .više:hover, .više2:hover{
         background-color: #752e89;
         color: white;
     }
@@ -95,3 +114,5 @@ h2 { font-family: 'Open Sans Condensed', sans-serif;
     .container{
         padding: 0;
     }
+
+    
