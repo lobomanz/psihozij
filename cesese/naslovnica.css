@@ -26,13 +26,14 @@
 }
 .overlej{
 position: relative;
-top:0;
+top:1.05rem;
 left:0;
 margin-top:-90.75%;
 width:80%;
-height:100%;
+height:97.5%;
 background-color:rgba(117, 46, 137,0.5);
 z-index: 2;
+backdrop-filter: blur(3px);
 }
 .overlej a{
   text-decoration: none;
@@ -45,7 +46,7 @@ h1{
   color: aliceblue;
   text-shadow: 0.2rem 0.2rem 1rem black;
   z-index: 2;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'lovelo', sans-serif;
 }
 .onama{
   z-index: 2;
@@ -53,28 +54,27 @@ h1{
   padding-right: 40%;
   color: rgba(255,255,255,1);
   font-size: 1.4rem;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Alegreya', sans-serif;
+  padding-bottom: 2rem;
 }
 .vise{
-  z-index: 2;
-  margin-right: 65%;
-  margin-top:5%;
-  color: #752e89;
-         font-weight: bold; 
-         font-size: 22px; 
-         font-family: Arial, Helvetica, sans-serif; 
-         padding: 5px 12px; 
-         background-color: white;
-          border-radius: 5px;
-           float: right;
-           margin-bottom:2rem ;
-           border:2px #752e89 solid;
+  color: white;
+    
+   font-size: 20px; 
+   font-family: 'Alegreya', sans-serif; 
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   border: 1px white solid;
+    border-radius: 20px;
+     margin-left: 4rem;
+     margin-bottom: 5rem;
+     
 }
 .vise:hover{
-  background-color:#752e89;
-  color: aliceblue;
-  border-color:aliceblue;
-  border: 2px white solid;
+  background-color: white;
+  color:#752e89;
 }
 
 
@@ -124,6 +124,7 @@ transition: all 0.5s ease-out;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
+  background-color: rgb(220,208,255);
   
  
 }
@@ -142,4 +143,29 @@ transition: all 0.5s ease-out;
   height: 30vh;
   padding-bottom: 5vh;
   padding-left: 5vw;
+}
+
+.prijava{
+  display: flex;
+
+}
+.prijslik{
+width: 50vw;
+height: 100vh;
+background-image: url(../slike/priljava.png);
+
+}
+.prijslik img{
+  object-fit: fill;
+}
+.naslov h4{
+  padding-top: 15vh;
+  padding-left: 15vw;
+  font-size: 6rem;
+  color: white;
+text-shadow: 10px 10px 30px grey;
+font-family: 'lovelo', sans-serif;
+}
+.naslov{
+  background-color: rgb(220,208,255);
 }

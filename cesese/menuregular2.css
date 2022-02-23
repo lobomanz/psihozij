@@ -229,6 +229,11 @@ padding: 10px;
 padding-left: 20px;
 }
 
+.dropdown-content a:hover{
+  color: #752e89;
+}
+
+
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: white}
 
