@@ -30,7 +30,7 @@ body{
     
     h2 {
          padding-top:2rem;
-         padding-left:2rem;
+         padding-left:5rem;
          padding-right: 2rem;
          text-align: center;
          }
@@ -53,7 +53,7 @@ h2 { font-family: 'lovelo', sans-serif;
     }
     .više{
         color: #752e89;
-          
+          margin-left: 2%;
          font-size: 20px; 
          font-family: 'Alegreya', sans-serif; 
          padding-left: 2rem;
@@ -64,6 +64,7 @@ h2 { font-family: 'lovelo', sans-serif;
           border-radius: 20px;
            float: right;
            margin-top: 1.5rem;
+           text-decoration: none;
            
     }
     .više:hover{
@@ -72,9 +73,43 @@ h2 { font-family: 'lovelo', sans-serif;
     }
     .text{
         margin-left: 3%;
+        
     }
     
     
     .container{
         padding-top: 4rem;
     }
+
+
+    @media only screen and (max-width: 600px) {
+        .kartice {
+          display: block;
+          
+          padding-top: 15%;
+          padding-bottom: 2%;
+          width: auto;
+            height: auto;
+        }
+        .container{
+            
+            display: block;
+            padding: 0;
+            margin: 0;
+            margin-top: 5rem;
+            width: auto;
+            height: auto;
+        }
+        .slikaa, .slikaa2{
+            display: inline-block;
+            padding: 0;
+            margin-top:2rem ;
+            width:auto;
+            height: auto;
+            float: none;
+        }
+        h2{
+            padding: 0rem;
+            
+        }
+      }

@@ -1,0 +1,36 @@
+#demo{
+    font-size: 150px;
+    color: #752e89;
+    text-align: center;
+    font-family: 'lovelo', sans-serif;
+
+}
+#medo{
+    
+    background-color: white;
+    margin: 0;
+    align-items: center;
+    line-height:0 ;
+    
+
+}
+
+.program{
+    display:flex;
+    padding-top: 8%;
+    align-items: center;
+    justify-content: center;
+}
+.progrmko{
+    width:23%;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+}
+.slic{
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+body{
+    overflow-x: hidden;
+}

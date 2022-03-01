@@ -124,7 +124,7 @@ transition: all 0.5s ease-out;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-  background-color: rgb(220,208,255);
+  background-color: white;
   
  
 }
@@ -152,20 +152,25 @@ transition: all 0.5s ease-out;
 .prijslik{
 width: 50vw;
 height: 100vh;
-background-image: url(../slike/priljava.png);
+background-image: url(../slike/zaprijave.jpg);
 
 }
 .prijslik img{
   object-fit: fill;
+  
 }
 .naslov h4{
-  padding-top: 15vh;
-  padding-left: 15vw;
-  font-size: 6rem;
-  color: white;
+  padding-top: 12vh;
+  padding-left: 13vw;
+  font-size: 8rem;
+  color: #752e89;
 text-shadow: 10px 10px 30px grey;
 font-family: 'lovelo', sans-serif;
+text-decoration: none;
 }
 .naslov{
-  background-color: rgb(220,208,255);
+  background-color: white;
+}
+a{
+  text-decoration: none;
 }
