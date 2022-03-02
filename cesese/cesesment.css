@@ -126,7 +126,7 @@ h2 { font-family: 'lovelo', sans-serif;
         margin-top: 3%;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media  (max-width: 1000px) {
         .kartice {
           display: block;
           margin: 0;
