@@ -80,12 +80,13 @@ h2 { font-family: 'lovelo', sans-serif;
           border-radius: 20px;
            float: right;
            margin-top: 1.5rem;
+           text-decoration: none;
            
     }
 
     .više2{
         color: #752e89;
-          
+          text-decoration: none;
          font-size: 20px; 
          font-family: Arial, Helvetica, sans-serif; 
          padding-left: 2rem;
@@ -126,9 +127,16 @@ h2 { font-family: 'lovelo', sans-serif;
         margin-top: 3%;
     }
 
+    .pred {
+        padding-bottom: 1.4rem;
+        padding-top: 1.6rem;
+        border-bottom: 0.2rem white solid;
+    }
+
     @media only screen and (max-width: 600px) {
         .kartice {
-          display: block;
+          display: flex;
+          flex-flow: column;
           margin: 0;
           padding: 0;
           width: auto;
@@ -138,16 +146,34 @@ h2 { font-family: 'lovelo', sans-serif;
             display: block;
             padding: 0;
             margin: 0;
-            margin-top: 5rem;
+            margin-top: 0rem;
             width: auto;
             height: auto;
         }
         .slikaa, .slikaa2{
             display: inline-block;
             padding: 0;
-            margin: 0;
-            width:auto;
+            margin-left: auto;
+            margin-right: auto;
+            width:90vw;
             height: auto;
             float: none;
+            order:1;
+        }
+
+        h2, p {
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .text, .text2 {
+            order: 2;
+            margin: 0;
+            padding: 0;
+        }
+        .više, .više2{
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
         }
       }

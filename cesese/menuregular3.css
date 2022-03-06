@@ -17,6 +17,9 @@ body{
     
   
   }
+
+
+  
   .loger img{
     max-width: 100%;
     max-height: 100%;
@@ -41,7 +44,7 @@ body{
     font-family: 'lovelo' , sans-serif;
     width:100%;
     margin:0;
-    
+    z-index: 10;
     
     
   }
@@ -311,4 +314,107 @@ body{
   padding: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  }
+
+
+
+
+  .hamburger{
+    display: none;
+  }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin:5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+  
+  .mnvu3{
+    text-align: center;
+    color: white;
+    font-family: 'lovelo', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px 0px;
+    margin: 0;
+  }
+  .burgerbar{
+    display: none;
+  }
+  
+  @media(max-width:1000px) {
+    .burgerbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #752e89;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .logogore{
+    width: 4rem;
+    height: 4rem;
+  }
+  .logogore img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+  
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+  
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+  
+  
+    }
+    .spremnik2{
+        
+        display: none;
+    }
+    .hamb-menu{
+      display: flex;
+        position: fixed;
+        left:-100vw;
+        padding-inline-start: 0px;
+        top:3rem;
+        gap:0;
+        flex-direction: column;
+        background-color: #752e89;
+        width: 100vw;
+        transition: 0.3s;
+        text-decoration: none;
+        z-index:10;
+    }
+    .mnvu{
+        margin:0px 0;
+        text-decoration: none;
+    }
+  
+    .hamb-menu.active{
+        left:0vw;
+    }
+    .menu{
+      display: none;
+    }
+    .logec{
+      display: none;
+    }
+    .logan{
+      display: none;
+    }
+    footer{
+      margin-top:5px;
+      padding: 5px;
+      display: block;
+    }
   }

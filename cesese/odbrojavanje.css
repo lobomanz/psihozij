@@ -1,8 +1,10 @@
 #demo{
-    font-size: 150px;
+    font-size: 120px;
     color: #752e89;
     text-align: center;
     font-family: 'lovelo', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: -1rem;
 
 }
 #medo{
@@ -17,7 +19,7 @@
 
 .program{
     display:flex;
-    padding-top: 8%;
+    padding-top: 0%;
     align-items: center;
     justify-content: center;
 }
@@ -34,3 +36,59 @@
 body{
     overflow-x: hidden;
 }
+.pred {
+    padding-bottom: 1.4rem;
+    padding-top: 1.6rem;
+    border-bottom: 0.2rem white solid;
+}
+@media only screen and (max-width: 1000px) {
+    .kartice {
+      display: block;
+      
+      padding-top: 15%;
+      padding-bottom: 2%;
+      width: auto;
+        height: auto;
+    }
+    .container{
+        
+        display: block;
+        padding: 0;
+        margin: 0;
+        margin-top: 0rem;
+        width: auto;
+        height: auto;
+    }
+    .slikaa, .slikaa2{
+        display: inline-block;
+        padding: 0;
+        margin-top:2rem ;
+        width:100vw;
+        height: auto;
+        float: none;
+    }
+    h2{
+        padding: 0rem;
+        
+    }
+    .text p{
+        padding: 1rem;
+    }
+    .više{
+        margin-right: 1rem;
+    }
+    #demo{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+    .program{
+        display: block;
+    }
+    .progrmko{
+        width:100vw;
+    }
+    .akson{
+        display: none;
+    }
+  }
+
