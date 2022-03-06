@@ -1,173 +1,211 @@
-
-
-  img{
-    max-width: 100%;
-  }
-  div.pozadina{
-    display:  grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 0%;
-    padding-top: 0%;
-    
-  }
-  
-
-
-  .pred{
-    padding-bottom: 1rem;
-    padding-top: 1.2rem;
-    border-bottom: 0.2rem white solid;
-    max-height: 100%;
+body {
+  background-color: white;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-.sempltekt{
-  font-size: 100px;
+.pred {
+  padding-bottom: 1rem;
+  padding-top: 1.2rem;
+  border-bottom: 0.2rem white solid;
+  max-height: 100%;
+}
+
+.studosi {
+  display: flex;
+  margin: 0;
+}
+.studenzi {
+  width: 50vw;
+}
+.studenzi img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.overlej {
+  width: 50vw;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
   color: #752e89;
+  text-shadow: 10px 10px 30px grey;
+
+  font-family: "lovelo", sans-serif;
 }
-.overlej{
-position: relative;
-top:1.05rem;
-left:0;
-margin-top:-90.75%;
-width:80%;
-height:97.5%;
-background-color:rgba(117, 46, 137,0.5);
-z-index: 2;
-backdrop-filter: blur(3px);
+.onama {
+  text-align: center;
+  color: #752e89;
+  font-size: 2rem;
+  font-family: "Alegreya", sans-serif;
+  padding: 0 5rem;
 }
-.overlej a{
+.vise {
+  color: #752e89;
+  padding: 5px 24px;
+  font-size: 2rem;
+  font-family: "Alegreya", sans-serif;
+
+  border: 1px #752e89 solid;
+  border-radius: 20px;
+  margin-left: 19vw;
+}
+.vise:hover {
+  background-color: #752e89;
+  color: white;
+}
+
+.prijava {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.prijslik {
+  width: 50vw;
+}
+.prijslik img {
+  max-width: 100%;
+}
+
+.naslov h4 {
+  padding: 0;
+  margin: 4vw;
+  font-size: 8rem;
+  color: #752e89;
+  text-shadow: 10px 10px 30px grey;
+  font-family: "lovelo", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+.naslov {
+  background-color: white;
+  width: 50vw;
+}
+a {
   text-decoration: none;
 }
-h1{ 
-  padding-top:20%;
-  padding-left:10%;
-  opacity: 1;
-  font-size: 4rem;
-  color: aliceblue;
-  text-shadow: 0.2rem 0.2rem 1rem black;
-  z-index: 2;
-  font-family: 'lovelo', sans-serif;
-}
-.onama{
-  z-index: 2;
-  padding-left: 10%;
-  padding-right: 40%;
-  color: rgba(255,255,255,1);
-  font-size: 1.4rem;
-  font-family: 'Alegreya', sans-serif;
-  padding-bottom: 2rem;
-}
-.vise{
-  color: white;
-    
-   font-size: 20px; 
-   font-family: 'Alegreya', sans-serif; 
-   padding-left: 2rem;
-   padding-right: 2rem;
-   padding-top: 0.5rem;
-   padding-bottom: 0.5rem;
-   border: 1px white solid;
-    border-radius: 20px;
-     margin-left: 4rem;
-     margin-bottom: 5rem;
-     
-}
-.vise:hover{
-  background-color: white;
-  color:#752e89;
-}
 
-
-
-
-.logan{
-  position: absolute;
-  top: 0.5%;
-  left: 0%;
-  width: 12rem;
-  height:12rem;
-  z-index: 1000000000000000000;
-}
-
-
-
-body{
-background-color: white;
-margin:0;
-overflow-x: hidden;
-width: 100vw;
-height: 100vh;
-transition: all 0.5s ease-out;
-}
-
-.sadrzajnik{
-  width:100%;
-  height:100%;
-  background-color: white;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-}
-
-.delovi{
-  scroll-snap-align: start;
-  width:100vw;
-  height: 100vh;
-  
-  
-}
-
-.gridom{
+.gridom {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
   background-color: white;
-  
- 
+  row-gap: 5rem;
+  width: 100%;
 }
-.gridom img{
+.gridom img {
   max-height: 100%;
   max-width: 100%;
-  
-}
-.broski{
-  width:30vw;
-  height: 30vh;
-  padding-left: 5vw;
-}
-.broski2{
-  width:30vw;
-  height: 30vh;
-  padding-bottom: 5vh;
-  padding-left: 5vw;
 }
 
-.prijava{
+.broski {
+  width: 33vw;
+  height: 33vh;
+  text-align: center;
+  position: relative;
+}
+
+.hiden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-
-}
-.prijslik{
-width: 50vw;
-height: 100vh;
-background-image: url(../slike/zaprijave.jpg);
-
-}
-.prijslik img{
-  object-fit: fill;
-  
-}
-.naslov h4{
-  padding-top: 12vh;
-  padding-left: 13vw;
-  font-size: 8rem;
-  color: #752e89;
-text-shadow: 10px 10px 30px grey;
-font-family: 'lovelo', sans-serif;
-text-decoration: none;
-}
-.naslov{
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
   background-color: white;
+  color: #752e89;
+  font-size: 1.5rem;
+  font-family: "lovelo", sans-serif;
 }
-a{
-  text-decoration: none;
+.hiden:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .studosi {
+    flex-flow: column;
+  }
+  .studenzi {
+    width: 100vw;
+    order: 2;
+    margin-top: 2rem;
+  }
+  .overlej {
+    order: 1;
+    width: 100vw;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: #752e89;
+    text-shadow: 10px 10px 30px grey;
+  }
+  .onama {
+    text-align: center;
+    color: #752e89;
+    font-size: 1rem;
+    font-family: "Alegreya", sans-serif;
+    padding: 0 10px;
+  }
+  .vise {
+    color: #752e89;
+    padding: 5px 24px;
+    font-size: 1rem;
+    font-family: "Alegreya", sans-serif;
+
+    border: 1px #752e89 solid;
+    border-radius: 20px;
+    margin-left: 7rem;
+  }
+
+  .prijava {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .prijslik {
+    width: 100vw;
+  }
+  .prijslik img {
+    max-width: 100%;
+  }
+
+  .naslov h4 {
+    padding: 0;
+    margin: 4vw;
+    font-size: 3rem;
+    color: #752e89;
+    text-shadow: 10px 10px 30px grey;
+    font-family: "lovelo", sans-serif;
+    text-decoration: none;
+    text-align: center;
+  }
+  .naslov {
+    background-color: white;
+    width: 100vw;
+  }
+
+  h2,
+  p {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  .gridom {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    row-gap: 5rem;
+    width: 100%;
+  }
+  .broski {
+    width: 100vw;
+  }
 }
