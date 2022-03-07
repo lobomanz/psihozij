@@ -39,8 +39,8 @@ h2 {
   color: #333;
 }
 .slikaa {
-  width: 75%;
-  height: 75%;
+  width: 60%;
+  height: 60%;
 }
 .prof {
   color: #752e89;
@@ -72,7 +72,7 @@ h2 {
   padding-top: 2rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1600px) {
   .kartice {
     display: block;
 

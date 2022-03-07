@@ -36,6 +36,11 @@ body {
   padding-top: 1.6rem;
   border-bottom: 0.2rem white solid;
 }
+@media only screen and (max-width: 1200px) {
+  #demo {
+    font-size: 5rem;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .kartice {
     display: block;

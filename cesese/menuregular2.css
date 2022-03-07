@@ -387,3 +387,11 @@ footer {
     border: none;
   }
 }
+@media (max-width: 1400px) {
+  .placement {
+    width: 4rem;
+  }
+  .prazno {
+    width: 13rem;
+  }
+}
