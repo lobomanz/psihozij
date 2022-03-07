@@ -126,7 +126,33 @@ a {
 .hiden:hover {
   opacity: 1;
 }
+@media only screen and (max-width: 1400px) {
+  h1 {
+    font-size: 2.5rem;
+    color: #752e89;
+    text-shadow: 10px 10px 30px grey;
+  }
+  .onama {
+    text-align: center;
+    color: #752e89;
+    font-size: 1.5rem;
+    font-family: "Alegreya", sans-serif;
+    padding: 0 10px;
+  }
+  .vise {
+    color: #752e89;
+    padding: 5px 24px;
+    font-size: 1.5rem;
+    font-family: "Alegreya", sans-serif;
 
+    border: 1px #752e89 solid;
+    border-radius: 20px;
+    margin-left: 10rem;
+  }
+  .naslov h4 {
+    font-size: 6rem;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .studosi {
     flex-flow: column;
@@ -210,30 +236,4 @@ a {
   }
 }
 
-@media only screen and (max-width: 1400px) {
-  h1 {
-    font-size: 2.5rem;
-    color: #752e89;
-    text-shadow: 10px 10px 30px grey;
-  }
-  .onama {
-    text-align: center;
-    color: #752e89;
-    font-size: 1.5rem;
-    font-family: "Alegreya", sans-serif;
-    padding: 0 10px;
-  }
-  .vise {
-    color: #752e89;
-    padding: 5px 24px;
-    font-size: 1.5rem;
-    font-family: "Alegreya", sans-serif;
 
-    border: 1px #752e89 solid;
-    border-radius: 20px;
-    margin-left: 10rem;
-  }
-  .naslov h4 {
-    font-size: 6rem;
-  }
-}
